@@ -1,0 +1,18 @@
+# Example URLs for batch downloading
+# Lines starting with # are ignored
+
+# YouTube videos
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://www.youtube.com/watch?v=jNQXAC9IVRw
+
+# TikTok videos
+https://www.tiktok.com/@charlidamelio/video/6807707899887317253
+
+# Instagram posts
+https://www.instagram.com/p/CdGvNKOOxHn/
+
+# Twitter/X videos
+https://twitter.com/NASA/status/1463282840592969733
+
+# Facebook videos
+https://www.facebook.com/watch?v=1234567890123456

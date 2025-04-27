@@ -1,0 +1,37 @@
+{
+  "name": "lotus-mansion-video-downloader",
+  "version": "1.0.0",
+  "description": "A comprehensive video downloader API library for multiple platforms",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "lotus-downloader": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "video",
+    "downloader",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "twitter",
+    "facebook"
+  ],
+  "author": "Lotus Mansion Team, Hexa Nirnamika, Sentino",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotus-mansion/video-downloader.git"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "ytdl-core": "^4.11.5",
+    "commander": "^11.1.0"
+  }
+}
