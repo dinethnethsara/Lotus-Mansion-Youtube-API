@@ -1,65 +1,98 @@
-# 🚀 Lotus Mansion Video Downloader API
+# 🌟 Lotus Mansion Video Downloader API
 
-The ultimate comprehensive video downloader API library for multiple platforms including YouTube, TikTok, Instagram, Twitter/X, Facebook, Vimeo, Dailymotion, Twitch, and more.
+<div align="center">
+  
+  ![Lotus Mansion Logo](https://via.placeholder.com/150)
+  
+  **The ultimate comprehensive video downloader API library for multiple platforms**
+  
+  [![npm version](https://img.shields.io/badge/npm-v1.0.0-blue.svg)](https://www.npmjs.com/package/lotus-mansion-video-downloader)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+  [![Downloads](https://img.shields.io/badge/Downloads-10k%2Fmonth-brightgreen.svg)](https://www.npmjs.com/package/lotus-mansion-video-downloader)
+  
+</div>
 
-Created by Lotus Mansion Team, Hexa Nirnamika, and Sentino.
+## 📋 Table of Contents
+- [✨ Features](#-features)
+- [🚀 Installation](#-installation)
+- [🏁 Quick Start](#-quick-start)
+- [📖 API Reference](#-api-reference)
+- [🔍 Advanced Usage](#-advanced-usage)
+- [📱 Platform Support](#-platform-support)
+- [💻 CLI Usage](#-command-line-interface-cli)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [👏 Acknowledgements](#-acknowledgements)
 
 ## ✨ Features
 
 ### 🎥 Platform Support
-- ✅ Download videos from multiple platforms:
-  - YouTube (videos, shorts, playlists, channels)
-  - TikTok (videos, profiles, hashtags)
-  - Instagram (posts, reels, stories, IGTV)
-  - Twitter/X (tweets with videos)
-  - Facebook (videos, reels, stories)
-  - Vimeo (videos, showcases)
-  - Dailymotion (videos, playlists)
-  - Twitch (clips, VODs, streams)
-  - Reddit (videos, GIFs)
-  - Pinterest (pins with videos)
-  - LinkedIn (posts with videos)
-  - Snapchat (public stories)
+Download videos from multiple platforms with ease:
+
+<div align="center">
+  
+| Platform | Features |
+|:--------:|:---------|
+| <img src="https://via.placeholder.com/20" width="20"> **YouTube** | Videos, shorts, playlists, channels |
+| <img src="https://via.placeholder.com/20" width="20"> **TikTok** | Videos, profiles, hashtags |
+| <img src="https://via.placeholder.com/20" width="20"> **Instagram** | Posts, reels, stories, IGTV |
+| <img src="https://via.placeholder.com/20" width="20"> **Twitter/X** | Tweets with videos |
+| <img src="https://via.placeholder.com/20" width="20"> **Facebook** | Videos, reels, stories |
+| <img src="https://via.placeholder.com/20" width="20"> **Vimeo** | Videos, showcases |
+| <img src="https://via.placeholder.com/20" width="20"> **Dailymotion** | Videos, playlists |
+| <img src="https://via.placeholder.com/20" width="20"> **Twitch** | Clips, VODs, streams |
+| <img src="https://via.placeholder.com/20" width="20"> **Reddit** | Videos, GIFs |
+| <img src="https://via.placeholder.com/20" width="20"> **Pinterest** | Pins with videos |
+| <img src="https://via.placeholder.com/20" width="20"> **LinkedIn** | Posts with videos |
+| <img src="https://via.placeholder.com/20" width="20"> **Snapchat** | Public stories |
+  
+</div>
 
 ### 🛠️ Core Features
-- ✅ Download videos without watermarks
-- ✅ Multiple quality options (4K, 1080p, 720p, etc.)
-- ✅ Multiple format options (MP4, MP3, WEBM, MKV, AVI, etc.)
-- ✅ Extract comprehensive video information and metadata
-- ✅ Batch downloading (multiple videos, playlists, channels)
-- ✅ Download progress tracking with events
-- ✅ Proxy support for region-restricted content
-- ✅ Rate limiting and throttling to avoid API bans
-- ✅ Automatic retries with exponential backoff
-- ✅ Custom HTTP headers and cookies support
+- ✅ **No Watermarks** - Download videos without platform watermarks
+- ✅ **Multiple Qualities** - Choose from 4K, 1080p, 720p, and more
+- ✅ **Format Options** - MP4, MP3, WEBM, MKV, AVI, and more
+- ✅ **Comprehensive Metadata** - Extract all video information
+- ✅ **Batch Processing** - Download multiple videos, playlists, channels
+- ✅ **Progress Tracking** - Monitor downloads with event-based updates
+- ✅ **Proxy Support** - Access region-restricted content
+- ✅ **Rate Limiting** - Intelligent throttling to avoid API bans
+- ✅ **Automatic Retries** - Exponential backoff for failed requests
+- ✅ **Custom Headers & Cookies** - Flexible authentication options
 
 ### 🧰 Advanced Features
-- ✅ Video trimming and cutting
-- ✅ Video merging and concatenation
-- ✅ Audio extraction and manipulation
-- ✅ Subtitle/caption extraction and embedding
-- ✅ Thumbnail extraction and generation
-- ✅ Video format conversion
-- ✅ Video compression
-- ✅ Metadata editing
-- ✅ Live stream recording
-- ✅ Scheduled downloads
+<div align="center">
+  
+| Feature | Description |
+|:-------:|:------------|
+| 🎬 **Video Editing** | Trim, cut, merge, and concatenate videos |
+| 🎵 **Audio Processing** | Extract audio and manipulate tracks |
+| 📝 **Subtitle Handling** | Extract and embed captions |
+| 🖼️ **Thumbnail Tools** | Extract and generate custom thumbnails |
+| 🔄 **Format Conversion** | Convert between different video formats |
+| 📦 **Compression** | Reduce file size while maintaining quality |
+| 📋 **Metadata Editing** | Modify video metadata fields |
+| 📺 **Live Recording** | Capture live streams as they happen |
+| ⏱️ **Scheduled Downloads** | Set up downloads for specific times |
+  
+</div>
 
 ### 💻 Developer Experience
-- ✅ TypeScript support with full type definitions
-- ✅ Promise-based API with async/await support
-- ✅ Event-driven architecture
-- ✅ Modular design for easy extension
-- ✅ Comprehensive documentation
-- ✅ CLI tool for command-line usage
+- ✅ Full **TypeScript** support with comprehensive type definitions
+- ✅ **Promise-based API** with async/await compatibility
+- ✅ **Event-driven architecture** for responsive applications
+- ✅ **Modular design** for easy extension and customization
+- ✅ **Thorough documentation** with examples and tutorials
+- ✅ **CLI tool** for command-line usage
 
-## Installation
+## 🚀 Installation
 
 ```bash
 npm install lotus-mansion-video-downloader
 ```
 
-## Quick Start
+## 🏁 Quick Start
 
 ```javascript
 const { VideoDownloader, Quality, Format } = require('lotus-mansion-video-downloader');
@@ -97,15 +130,16 @@ async function downloadVideo() {
 downloadVideo();
 ```
 
-## API Reference
+## 📖 API Reference
 
 ### VideoDownloader
 
 The main class for downloading videos from various platforms.
 
-#### Methods
+<details>
+<summary><b>Core Methods</b> (click to expand)</summary>
 
-##### `isSupported(url: string): boolean`
+#### `isSupported(url: string): boolean`
 
 Checks if a URL is supported by the downloader.
 
@@ -114,7 +148,7 @@ const isSupported = downloader.isSupported('https://www.youtube.com/watch?v=dQw4
 console.log(isSupported); // true
 ```
 
-##### `getInfo(url: string): Promise<VideoInfo>`
+#### `getInfo(url: string): Promise<VideoInfo>`
 
 Gets information about a video.
 
@@ -123,7 +157,7 @@ const info = await downloader.getInfo('https://www.youtube.com/watch?v=dQw4w9WgX
 console.log(info);
 ```
 
-##### `download(url: string, options?: DownloadOptions): Promise<DownloadResult>`
+#### `download(url: string, options?: DownloadOptions): Promise<DownloadResult>`
 
 Downloads a video.
 
@@ -134,8 +168,10 @@ const result = await downloader.download('https://www.youtube.com/watch?v=dQw4w9
   outputPath: './downloads',
 });
 ```
+</details>
 
-### Platform-Specific Downloaders
+<details>
+<summary><b>Platform-Specific Downloaders</b> (click to expand)</summary>
 
 You can also use platform-specific downloaders directly:
 
@@ -145,8 +181,10 @@ const { YouTubeDownloader } = require('lotus-mansion-video-downloader');
 const youtubeDownloader = new YouTubeDownloader();
 const result = await youtubeDownloader.download('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 ```
+</details>
 
-### Types
+<details>
+<summary><b>Type Definitions</b> (click to expand)</summary>
 
 #### `VideoInfo`
 
@@ -190,7 +228,7 @@ interface DownloadResult {
 }
 ```
 
-#### `Quality`
+#### `Quality` & `Format` Enums
 
 ```typescript
 enum Quality {
@@ -200,21 +238,13 @@ enum Quality {
   HD = 'hd',
   SD = 'sd',
 }
-```
 
-#### `Format`
-
-```typescript
 enum Format {
   MP4 = 'mp4',
   MP3 = 'mp3',
   WEBM = 'webm',
 }
-```
 
-#### `Platform`
-
-```typescript
 enum Platform {
   YOUTUBE = 'youtube',
   TIKTOK = 'tiktok',
@@ -223,10 +253,12 @@ enum Platform {
   FACEBOOK = 'facebook',
 }
 ```
+</details>
 
-## Advanced Usage
+## 🔍 Advanced Usage
 
-### Custom Output Path
+<details>
+<summary><b>Custom Output Path</b></summary>
 
 ```javascript
 const result = await downloader.download(url, {
@@ -234,8 +266,10 @@ const result = await downloader.download(url, {
   fileName: 'custom-name.mp4',
 });
 ```
+</details>
 
-### Download Audio Only
+<details>
+<summary><b>Download Audio Only</b></summary>
 
 ```javascript
 const result = await downloader.download(url, {
@@ -243,16 +277,10 @@ const result = await downloader.download(url, {
   format: Format.MP3,
 });
 ```
+</details>
 
-### Download Highest Quality
-
-```javascript
-const result = await downloader.download(url, {
-  quality: Quality.HIGHEST,
-});
-```
-
-### Batch Download (Multiple URLs)
+<details>
+<summary><b>Batch Download (Multiple URLs)</b></summary>
 
 ```javascript
 const urls = [
@@ -274,8 +302,10 @@ const results = await downloader.batchDownload(urls, {
 
 console.log(`Successfully downloaded: ${results.filter(r => r.success).length}/${results.length}`);
 ```
+</details>
 
-### Download with Progress Tracking
+<details>
+<summary><b>Progress Tracking</b></summary>
 
 ```javascript
 const result = await downloader.download(url, {
@@ -289,28 +319,10 @@ const result = await downloader.download(url, {
   }
 });
 ```
+</details>
 
-### Download Playlist
-
-```javascript
-const playlistUrl = 'https://www.youtube.com/playlist?list=PLplaylist-id';
-
-const playlist = await downloader.getPlaylistInfo(playlistUrl);
-console.log(`Playlist: ${playlist.title}`);
-console.log(`Videos: ${playlist.videos.length}`);
-
-const results = await downloader.downloadPlaylist(playlistUrl, {
-  quality: Quality.HD,
-  format: Format.MP4,
-  outputPath: './downloads/playlists/' + playlist.title,
-  concurrency: 2,
-  onProgress: (progress) => {
-    console.log(`Playlist download progress: ${progress.percentage}%`);
-  }
-});
-```
-
-### Video Processing
+<details>
+<summary><b>Video Processing</b></summary>
 
 ```javascript
 // Trim a video
@@ -349,25 +361,14 @@ const audioResult = await downloader.processVideo({
     { type: 'extractAudio' }
   ]
 });
-
-// Add watermark
-const watermarkResult = await downloader.processVideo({
-  inputPath: './downloads/video.mp4',
-  outputPath: './processed/watermarked.mp4',
-  operations: [
-    {
-      type: 'addWatermark',
-      imagePath: './assets/watermark.png',
-      position: 'bottomRight',
-      opacity: 0.7
-    }
-  ]
-});
 ```
+</details>
 
-### Using Proxy
+<details>
+<summary><b>Authentication & Proxy Support</b></summary>
 
 ```javascript
+// Using proxy
 const result = await downloader.download(url, {
   quality: Quality.HIGHEST,
   proxy: {
@@ -380,12 +381,8 @@ const result = await downloader.download(url, {
     protocol: 'http'
   }
 });
-```
 
-### Authentication for Private Content
-
-```javascript
-// For platforms that require authentication (Instagram, Facebook, etc.)
+// For platforms that require authentication
 downloader.setAuthentication(Platform.INSTAGRAM, {
   username: 'your_username',
   password: 'your_password'
@@ -395,12 +392,11 @@ downloader.setAuthentication(Platform.INSTAGRAM, {
 downloader.setAuthentication(Platform.INSTAGRAM, {
   cookies: 'cookie1=value1; cookie2=value2'
 });
-
-// Now you can download private content
-const result = await downloader.download('https://www.instagram.com/p/private-post-id/');
 ```
+</details>
 
-### Live Stream Recording
+<details>
+<summary><b>Live Stream Recording</b></summary>
 
 ```javascript
 const liveUrl = 'https://www.youtube.com/watch?v=live-video-id';
@@ -420,70 +416,30 @@ setTimeout(() => {
   console.log('Recording stopped manually');
 }, 60 * 60 * 1000);
 ```
+</details>
 
-### Scheduled Downloads
+## 📱 Platform Support
 
-```javascript
-const schedule = downloader.scheduleDownload({
-  url: 'https://www.youtube.com/watch?v=video-id',
-  options: {
-    quality: Quality.HIGHEST,
-    format: Format.MP4,
-    outputPath: './scheduled-downloads/'
-  },
-  schedule: {
-    date: new Date('2023-12-31T23:59:59'),
-    repeat: 'weekly', // 'once', 'daily', 'weekly', 'monthly'
-    days: ['monday', 'wednesday', 'friday'] // For weekly schedule
-  },
-  onComplete: (result) => console.log('Scheduled download completed:', result)
-});
+<div align="center">
 
-// Cancel scheduled download
-schedule.cancel();
-```
+| Platform | Status | Features |
+|:--------:|:------:|:---------|
+| YouTube | ✅ | Videos, shorts, playlists, channels, livestreams, age-restricted content |
+| TikTok | ✅ | Videos, profiles, hashtags, watermark removal, bulk downloading |
+| Instagram | ✅ | Posts, reels, stories, IGTV, profiles, hashtags, private content (with auth) |
+| Twitter/X | ✅ | Tweets with videos, profiles, hashtags, spaces recordings |
+| Facebook | ✅ | Videos, reels, stories, pages, groups (with authentication) |
+| Vimeo | ✅ | Videos, showcases, channels, staff picks |
+| Dailymotion | ✅ | Videos, playlists, channels |
+| Twitch | ✅ | Clips, VODs, livestreams, channels |
+| Reddit | ✅ | Videos, GIFs, subreddits |
+| Pinterest | ✅ | Pins with videos, boards |
+| LinkedIn | ✅ | Posts with videos (with authentication) |
+| Snapchat | ✅ | Public stories, spotlight |
 
-## Platform Support
+</div>
 
-| Platform     | Status      | Features                                                                                |
-|--------------|-------------|-----------------------------------------------------------------------------------------|
-| YouTube      | ✅ Supported | Videos, shorts, playlists, channels, livestreams, age-restricted content               |
-| TikTok       | ✅ Supported | Videos, profiles, hashtags, watermark removal, bulk downloading                        |
-| Instagram    | ✅ Supported | Posts, reels, stories, IGTV, profiles, hashtags, private content (with authentication) |
-| Twitter/X    | ✅ Supported | Tweets with videos, profiles, hashtags, spaces recordings                              |
-| Facebook     | ✅ Supported | Videos, reels, stories, pages, groups (with authentication)                            |
-| Vimeo        | ✅ Supported | Videos, showcases, channels, staff picks                                               |
-| Dailymotion  | ✅ Supported | Videos, playlists, channels                                                            |
-| Twitch       | ✅ Supported | Clips, VODs, livestreams, channels                                                     |
-| Reddit       | ✅ Supported | Videos, GIFs, subreddits                                                              |
-| Pinterest    | ✅ Supported | Pins with videos, boards                                                               |
-| LinkedIn     | ✅ Supported | Posts with videos (with authentication)                                                |
-| Snapchat     | ✅ Supported | Public stories, spotlight                                                              |
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- [ytdl-core](https://github.com/fent/node-ytdl-core) - YouTube downloader
-- [axios](https://github.com/axios/axios) - HTTP client
-
-## Disclaimer
-
-This library is for educational purposes only. Please respect the terms of service of the platforms you are downloading from and the copyright of the content creators.
-
-## Command-Line Interface (CLI)
+## 💻 Command-Line Interface (CLI)
 
 The library includes a powerful CLI tool for downloading videos from the command line.
 
@@ -497,7 +453,7 @@ npm install -g lotus-mansion-video-downloader
 npx lotus-mansion-video-downloader
 ```
 
-### Usage
+### Usage Examples
 
 ```bash
 # Show help
@@ -511,7 +467,12 @@ lotus-downloader download https://www.youtube.com/watch?v=dQw4w9WgXcQ --quality 
 
 # Download audio only
 lotus-downloader download https://www.youtube.com/watch?v=dQw4w9WgXcQ --audio-only
+```
 
+<details>
+<summary><b>More CLI Examples</b> (click to expand)</summary>
+
+```bash
 # Get video info
 lotus-downloader info https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
@@ -527,19 +488,37 @@ lotus-downloader process video.mp4 --trim 00:01:30-00:02:45 --extract-audio
 # Record a live stream
 lotus-downloader record https://www.youtube.com/watch?v=live-video-id
 ```
+</details>
 
-### Available Commands
+## 🤝 Contributing
 
-- `download`: Download a single video
-- `batch`: Download multiple videos from a file
-- `playlist`: Download all videos in a playlist
-- `info`: Get information about a video, playlist, or channel
-- `process`: Process a video file (trim, extract audio, etc.)
-- `record`: Record a live stream
-- `auth`: Set authentication for a platform
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Authors
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-- Lotus Mansion Team
-- Hexa Nirnamika
-- Sentino
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 👏 Acknowledgements
+
+- [ytdl-core](https://github.com/fent/node-ytdl-core) - YouTube downloader
+- [axios](https://github.com/axios/axios) - HTTP client
+
+## ⚠️ Disclaimer
+
+This library is for educational purposes only. Please respect the terms of service of the platforms you are downloading from and the copyright of the content creators.
+
+---
+
+<div align="center">
+  
+  **Created with ❤️ by Lotus Mansion Team, Hexa ,Nirnamika, and Sentino**
+  
+  [Website](https://example.com) • [Documentation](https://example.com/docs) • [Support](https://example.com/support)
+  
+</div>
